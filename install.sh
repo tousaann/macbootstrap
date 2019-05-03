@@ -4,6 +4,9 @@ source basic.sh
 sudo ./install-steps/macos.sh
 
 brew install python3
+pip3 install shadowsocks
+
+# not use shadowsocks
 
 if [[ ! -e /Applications/iTerm.app ]]; then
     brew cask install iterm2
